@@ -2,7 +2,7 @@ import yt_dlp
 import os
 
 def download_music():
-    link_file = 'links.txt'
+    link_file = ''
     
     # Check if links.txt exists
     if not os.path.exists(link_file):
